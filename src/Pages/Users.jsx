@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../components/Navbar";
+// import { useState, useEffect } from "react";
 // import axios from 'axios';
 import "./Page.css";
 
@@ -50,3 +51,27 @@ export class Users extends Component {
 }
 
 export default Users;
+
+// // import React from 'react'
+
+// function Users() {
+//   const [data, setData] = useState(null);
+//  const [loading, setLoading] = useState(true);
+//  const [error, setError] = useState(null);
+
+
+//  useEffect(() => {
+//   fetch(`https://randomuser.me/api/?results=50`)
+//    .then((response) => console.log());
+//    .then((actualData) => console.log(actualData));
+//    .catch((err) => {
+//     console.log(err.message);
+//    });
+//  }, []);
+
+//   return (
+//     <div>Users</div>
+//   )
+// }
+
+// export default Users
